@@ -6,7 +6,7 @@
         nuxt-app
       </h1>
       <h2 class="subtitle">
-        emanon2 project
+        emanon3 project
       </h2>
       <div class="links">
         <a
