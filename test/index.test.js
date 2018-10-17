@@ -34,7 +34,7 @@ test('Route / exits and render HTML with CSS applied', async (t) => {
     const { window } = new JSDOM(html).window
     const element = window.document.querySelector('.title')
     t.not(element, null)
-    t.is(element.textContent.trim(), 'nuxt-appx')
+    t.is(element.textContent.trim(), 'nuxt-app')
     t.is(element.className, 'title')
     // t.is(window.getComputedStyle(element).color, '#35495e')
 })
